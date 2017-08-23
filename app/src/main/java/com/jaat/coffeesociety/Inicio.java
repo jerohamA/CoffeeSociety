@@ -18,6 +18,7 @@ public class Inicio extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String hpta;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
